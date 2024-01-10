@@ -8,7 +8,7 @@
 
 // confirm('apakah kamu yakin?');
 var confirm = confirm('apakah kamu yakin?');
-alert(confirm);
+// alert(confirm);
 
 if (confirm===true){
     alert('user menekan tombol OK!');
