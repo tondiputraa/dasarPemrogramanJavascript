@@ -16,8 +16,9 @@
 // }
 
 var nilaiAwal = 1;
-while (nilaiAwal<=5)
+var kondisi = prompt('Jumlah Pengulangan');
+while (nilaiAwal<=kondisi)
 {
-    console.log('Hello world!');
+    console.log('Hello world!'+nilaiAwal+'x');
     nilaiAwal++;
 }
