@@ -8,8 +8,9 @@
 // console.log('Hello world!');
 // console.log('Hello world!');
 // console.log('Hello world!');
-
-while (true)
+var ulang = true;
+while (ulang)
 {
     console.log('Hello world!');
+    ulang = confirm('Lagi?');
 }
