@@ -1,12 +1,13 @@
 var kesempatan = 3;
-alert('Silahkan Tebak angka 1-10 !' + '\n kamu punya ' + kesempatan + ' kesempatan!');
+var angka = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+var compt = angka(1,10);
+alert('Silahkan Tebak angka 1-10 !' + '\n kamu punya ' + kesempatan + ' kesempatan!'+compt);
 kesempatan--
 while (kesempatan >= 0 ) 
 {
 
     var user = prompt('masukan angka tebakan 1-10');
-    var angka = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-    var compt = angka(1,10);
+   
 
     if (user == compt) 
     {
@@ -32,7 +33,8 @@ while (kesempatan >= 0 )
     else{
         break;
     }
-    }else if (user > compt ) {
+    }
+    else if (user > compt ) {
         alert('ANGKA YANG DIMASUKKAN LEBIH BESAR' + '\n kamu punya ' + kesempatan + ' kesempatan' );
     } else if (user < compt) {
         alert('ANGKA YANG DIMASUKKAN LEBIH RENDAH' + '\n kamu punya ' + kesempatan + ' kesempatan');
