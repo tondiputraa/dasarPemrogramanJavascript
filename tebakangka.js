@@ -32,7 +32,8 @@ while (kesempatan >= 0 )
     else{
         break;
     }
-    }else if (user > compt ) {
+    }
+    else if (user > compt ) {
         alert('ANGKA YANG DIMASUKKAN LEBIH BESAR' + '\n kamu punya ' + kesempatan + ' kesempatan' );
     } else if (user < compt) {
         alert('ANGKA YANG DIMASUKKAN LEBIH RENDAH' + '\n kamu punya ' + kesempatan + ' kesempatan');
