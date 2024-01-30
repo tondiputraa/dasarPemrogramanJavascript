@@ -15,13 +15,3 @@ function jumlahVolumeDuaBuahKubus(a,b){
 }
 
 alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(1,2)+' cm\^3');
-
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(2,1)+' cm\^3');
-
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(3,2)+' cm\^3');
-
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(14,2)+' cm\^3');
-
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(1,23)+' cm\^3');
-
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(1,1)+' cm\^3');
