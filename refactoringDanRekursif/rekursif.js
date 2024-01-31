@@ -10,15 +10,37 @@
 //     console.log(i);
 // }
 
+
+// var f = prompt('Masukkan Angka : ');
+
+
 function tampilAngka(n) {
-    if(n===0) return;       //Base case (statment buat memberhentikan) 
+     if(n===0) {
+        return;       //Base case (statment buat memberhentikan) 
+    }
     console.log(n);
     tampilAngka(n-1);
 }
 
+
+
 function faktorial(f) {
+    
+    if(f<0){
+        return console.log('Masukkan bilangan POSITIF!');
+    }
+    else
     if(f===0) return 1;
     return f * faktorial(f-1);
 }
 
-console.log(faktorial(6));
+
+function  faktorisasi (a,p){
+   var a=prompt('masukkan angka :');
+   var p=prompt('masukkan pangkat :');
+   var hasil=Math.pow(a,p);
+   alert(hasil);
+
+}
+
+faktorisasi();
