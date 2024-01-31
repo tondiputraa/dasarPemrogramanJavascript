@@ -14,4 +14,4 @@ function jumlahVolumeDuaBuahKubus(a,b){
     return total;
 }
 
-alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(1,2)+' cm\^3');
+alert('Jumlah volume Kubus = '+jumlahVolumeDuaBuahKubus(1,2));
