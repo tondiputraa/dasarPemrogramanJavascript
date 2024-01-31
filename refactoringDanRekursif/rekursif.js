@@ -43,4 +43,13 @@ function  faktorisasi (a,p){
 
 }
 
-faktorisasi();
+function faktorial2(c){
+    var hasil = 1;
+    for(var i=c;i>0;i--) {
+        hasil*=i;
+    }
+    return hasil;
+}
+
+// alert(faktorial(3));
+// faktorisasi();
