@@ -15,4 +15,4 @@ function tampilNamaDeclaration(nama) {
    
 
     tampilNamaExpression();
-    tampilNamaDeclaration('Tondi Putra Declaration')
+    tampilNamaDeclaration('Tondi Putra Declaration');
