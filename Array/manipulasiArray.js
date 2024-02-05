@@ -29,7 +29,7 @@
 // 4. Method Pada Array:
 
 
-var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
+// var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
 //    1. Join                          ------>menggabungkan semu elemen  
 // console.log(binatang.join(' - '));
 
@@ -43,9 +43,21 @@ var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
 //  3. unshift dan shift
 //    binatang.unshift('ulat'); // ----> MENAMBAHKAN elemen PERTAMA (Unshift)
     
-   binatang.shift();
-   console.log(binatang.join(' - ')); // ----> MENGHAPUS elemen PERTAMA
+   // binatang.shift();
+   // console.log(binatang.join(' - ')); // ----> MENGHAPUS elemen PERTAMA
 
+//   4. slice and splice
+// //    splice(indexAwal, mauDihapusBerapa,elemenBaru1, elemenBaru2)
+// binatang.splice(1,1,'kecoa','angsa');
+// console.log(binatang.join(' - '));
+
+//    5.Slice
+// slice(awal,akhir);
+
+var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
+var binatang2 = binatang.slice(1,4);
+console.log(binatang2.join(' - '));
+console.log(binatang.join(' - '));
 
 
 
