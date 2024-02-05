@@ -30,21 +30,21 @@
 
 
 var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
-//    1. Join
+//    1. Join                          ------>menggabungkan semu elemen  
 // console.log(binatang.join(' - '));
 
 //    2. Push and Pop
-//  binatang.push('kambing','semut','jerapah');
+//  binatang.push('kambing','semut','jerapah'); //-----> MENAMBAHKAN elemen TERAKHIR
 
-//  binatang.pop();
-//  binatang.pop();
+//  binatang.pop();             
+//  binatang.pop();         //-----> MENGHAPUS elemen TERAKHIR
 //  console.log(binatang.join(' - '));
 
 //  3. unshift dan shift
-//    binatang.unshift('ulat'); // ----> menambahkan elemen PERTAMA (Unshift)
+//    binatang.unshift('ulat'); // ----> MENAMBAHKAN elemen PERTAMA (Unshift)
     
    binatang.shift();
-   console.log(binatang.join(' - '));
+   console.log(binatang.join(' - ')); // ----> MENGHAPUS elemen PERTAMA
 
 
 
