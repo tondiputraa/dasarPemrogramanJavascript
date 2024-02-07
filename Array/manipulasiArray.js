@@ -54,10 +54,19 @@
 //    5.Slice
 // slice(awal,akhir);
 
-var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
-var binatang2 = binatang.slice(1,4);
-console.log(binatang2.join(' - '));
-console.log(binatang.join(' - '));
+// var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
+// var binatang2 = binatang.slice(2,3);
+// console.log(binatang2.join(' - '));
+// console.log(binatang.join(' - '));
+
+
+//6. foreach
+var angka = [1,2,3,4,5,6,7,8];
+for (var i = 0; i<angka.length;i++){
+   console.log(angka[i]);
+}
+
+
 
 
 
