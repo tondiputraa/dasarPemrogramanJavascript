@@ -62,6 +62,7 @@
 
 //6. foreach
    var angka = [1,2,3,4,5,6,7,8,9];
+   var nama = ['tondi','putra','nafis'];
    // for (var i = 0; i<angka.length;i++){
    //    console.log(angka[i]);
    // }
@@ -70,10 +71,28 @@
 //    }
 // angka.forEach(cetak);
 
-angka.forEach(function(e){
-      console.log(e);
-   });
+// angka.forEach(function(e){
+//       console.log(e);
+//    });
 
+// nama.forEach(function(e,i){
+//       console.log('mahasiswa ke- '+ (i+1) +' adalah '+e);
+
+//    });
+
+// var angka2 = [1,2,4,2,1,5];
+// var angka3 = angka2.map(function(e)
+// {
+//    return e*2;
+// }
+// );
+// console.log(angka3.join(' - '));
+
+var angka = [1,2,8,3,10,7,20,12];
+angka.sort(function(a,b){
+   return a-b;
+});
+console.log(angka);
 
 
 
