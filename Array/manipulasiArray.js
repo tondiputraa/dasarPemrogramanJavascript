@@ -8,7 +8,7 @@
 // binatang[2] = 'kelinci';
 // binatang[3] = 'koala';
 
-// console.log(binatang);
+// console.log(binaytang);
 
 // Menghapus Isi Array
 
@@ -30,7 +30,7 @@
 
 
 // var binatang = ['kucing' , 'sapi' , 'kelinci' , 'panda' , 'koala'];
-//    1. Join                          ------>menggabungkan semu elemen  
+//    1. Join                          ------>menggabungkan semua elemen  
 // console.log(binatang.join(' - '));
 
 //    2. Push and Pop
@@ -61,13 +61,18 @@
 
 
 //6. foreach
-var angka = [1,2,3,4,5,6,7,8];
-for (var i = 0; i<angka.length;i++){
-   console.log(angka[i]);
-}
+   var angka = [1,2,3,4,5,6,7,8,9];
+   // for (var i = 0; i<angka.length;i++){
+   //    console.log(angka[i]);
+   // }
+//    var cetak = function(e){
+//       console.log(e);
+//    }
+// angka.forEach(cetak);
 
-
-
+angka.forEach(function(e){
+      console.log(e);
+   });
 
 
 
