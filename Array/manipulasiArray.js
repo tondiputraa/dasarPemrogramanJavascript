@@ -61,8 +61,8 @@
 
 
 //6. foreach
-   var angka = [1,2,3,4,5,6,7,8,9];
-   var nama = ['tondi','putra','nafis'];
+   // var angka = [1,2,3,4,5,6,7,8,9];
+   // var nama = ['tondi','putra','nafis'];
    // for (var i = 0; i<angka.length;i++){
    //    console.log(angka[i]);
    // }
@@ -88,12 +88,48 @@
 // );
 // console.log(angka3.join(' - '));
 
-var angka = [1,2,8,3,10,7,20,12];
-angka.sort(function(a,b){
-   return a-b;
-});
-console.log(angka);
+// var angka = [1,2,8,3,10,7,20,12];
+// angka.sort(function(a,b){
+//    return a-b;
+// });
+// console.log(angka);
 
+// 7. Map
+// var angka = [1,9,2,3,4,7];
+// var angka2 = angka.map(function(e){
+//    return e*2;
+// });
+
+// angka2.sort(function(a,b){
+//    return a-b;
+// });
+
+// console.log(angka2.join(' - '));
+// var angka = [1,4,2,1,5,8,5,7,0,9,8,7,3,2];
+
+// angka.push(1,2,3);
+// angka.push(9,7,8);
+// // console.log(angka);
+
+// // angka.forEach(function(e){
+// //    console.log(e);
+// // })
+
+// angka.sort(function(a,b){
+//    return a-b;
+// });
+// console.log(angka);
+
+// 8. Filter and Find
+// filter untuk memanggil semua elemen pada array dan bentuknya array
+// find hanya memanggil satu elemen didalam array yang pertama kali ditemukan dan bentuknya nilai
+
+// var angka = [1,6,7,20,5,3,10,19,13,15];
+// var angka2 = angka.find(function(x){
+//    return x>5;
+// });
+
+// console.log(angka2);
 
 
 
