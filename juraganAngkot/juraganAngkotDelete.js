@@ -20,15 +20,19 @@ var hapusPenumpang = function (namaPenumpang, penumpang)
                     // Kembalikan isi array dan keluar dari function
                     return penumpang;
             }
-            
-        
-        }
-        //jika tidak ada nama yang sama
+            //jika tidak ada nama yang sama
+            else if (i==penumpang.length-1)
+            {
         
             // tampilkan pesan kesalahannya
             console.log('Penumpang '+namaPenumpang+' tidak berada di Angkot !!!');
             return penumpang;
 
+            }
+            
+        
+        }
+        
 
       }
 
