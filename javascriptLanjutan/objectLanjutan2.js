@@ -35,30 +35,36 @@
 
 
 
-class Mahasiswa {
-    constructor(nama,energi){
-        this.nama=nama;
-        this.energi=energi;
-        }    
-        makan(porsi){
-        this.energi+=porsi;
-        return `selamat makan ${this.nama} energi anda menjadi ${this.energi}`;
+           class Mahasiswa{
+                constructor(nama, energi){
+                    this.nama=nama;
+                    this.energi=energi;
+                }
+                makan(porsi){
+                    this.energi+=porsi;
+                    return `Selamat makan ${this.nama} energi kamu menjadi ${this.energi}`;
 
-        }
+                }
+                main(jam){
+                    this.energi+=jam;
+                    return `Selamat makan ${this.nama} energi kamu menjadi ${this.energi}`;
+                    
+                }
+                tidur(jam){
+                    this.energi+=jam*2;
+                    return `Selamat makan ${this.nama} energi kamu menjadi ${this.energi}`;
+                    
+                }
 
-        main(jam){
-        this.energi-=jam;
-        return `Halo ${this.nama} \nEnergi kamu menjadi= ${this.energi}`;
-        }
+                }
 
-        tidur(jam){
-        this.energi+=jam*2;
-        return `Halo ${this.nama} Selamat Tidur! \nEnergi kamu menjadi= ${this.energi}`;
-        }
+
+                let tondi = new Mahasiswa ('tondi',20);
+
+
+
     
-    }
-
-    let tondi = new Mahasiswa('tondi',20); // wajib pake new
+    // wajib pake new
 // const methodMahasiswa = {
 // makan:function (porsi){
 //     this.energi=+porsi;

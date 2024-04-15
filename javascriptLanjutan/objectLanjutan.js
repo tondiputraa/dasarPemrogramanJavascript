@@ -31,6 +31,18 @@
 
 // let tondi = Mahasiswa('tondi',20);
 
+// class Mahasiswa {
+//     constructor(nama,nim){
+//     this.nama=nama;
+//     this.nim=nim;
+//     }
+    
+//     }
+    
+//     let tondi = new Mahasiswa ('tondi','1');
+//     console.table(tondi);
+    
+
 //3.constructor function
 function Mahasiswa (nama,energi){
     // let mahasiswa = {}; //dihapus kalau disini
