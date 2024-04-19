@@ -42,8 +42,15 @@
 
 //filtering
 
-function filterBy (type, ...values){
-    return values.filter(v=> typeof v===type)
+// function filterBy (type, ...values){
+//     return values.filter(v=> typeof v===type)
+// }
+
+// console.log(filterBy('number',1,2,'tondi',true,'putra',10,false));
+
+function tampilkanPesan (callback){
+    let nama = prompt('Masukkan nama:')
+    callback(nama);
 }
 
-console.log(filterBy('number',1,2,'tondi',true,'putra',10,false));
+tampilkanPesan(nama=>alert(`Halo, ${nama}`))
