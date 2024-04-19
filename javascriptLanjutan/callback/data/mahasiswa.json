@@ -1,0 +1,23 @@
+[
+    {
+    "nama":"Tondi Putra",
+    "nrp":"12345",
+    "email":"tondiputra02@gmail.com",
+    "jurusan":"Teknik Informatika",
+    "idDosenWali":1
+    },
+    {
+        "nama":"Nafis Mubarak",
+        "nrp":"78745",
+        "email":"nafis@gmail.com",
+        "jurusan":"Teknik Inforatika",
+        "idDosenWali":2
+        },
+            {
+            "nama":"diankha",
+            "nrp":"56432",
+            "email":"diankha@gmail.com",
+            "jurusan":"Teknik Informatika",
+            "idDosenWali":2
+            }
+]
