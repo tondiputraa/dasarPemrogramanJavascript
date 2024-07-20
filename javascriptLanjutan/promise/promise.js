@@ -62,43 +62,89 @@
 // console.log('Selesai');
 
 // Promise.all
+// let ditepati = true;
+
+// const film = new Promise ((resolve,reject)=>{
+// if(ditepati)
+// {
+//     setTimeout(() => {
+//     resolve([{
+//         judul:'Avengers',
+//         sutradara:'tondi',
+//         pemeran:'putra, nafis'
+//     }])}, 1000);
+// }    
+// else
+// {
+//     setTimeout(() => {
+//         reject('Tidak terpenuhi')
+//         }, 1000);
+// }
+// });
+
+// const cuaca = new Promise ((resolve,reject)=>{
+//     if(ditepati)
+//     {
+//         setTimeout(() => {
+//         resolve([{
+//             kota:'Bandung',
+//             temp:26,
+//             kondisi:'cerah'
+//         }])}, 500);
+//     }    
+//     else
+//     {
+//         setTimeout(() => {
+//             reject('Tidak terpenuhi')
+//             }, 1000);
+//     }
+//     });
+
+// // film.then(response=>console.log(response));
+// // cuaca.then(response=>console.log(response));
+
+// Promise.all([film,cuaca]).then(
+//     response=>{
+//         const [film,cuaca]=response;
+//         console.log(film);
+//         console.log(cuaca);
+//     }
+// )
+
 let ditepati = true;
 
-const film = new Promise ((resolve,reject)=>{
-if(ditepati)
-{
+const cuaca = new Promise((resolve, reject) => {
+    if (ditepati){
+        setTimeout(() => {
+            resolve([{
+                kota:'Bandung',
+                temp:26,
+                kondisi:'cerah'
+            }])}, 1000);
+    }
+    else{
+        setTimeout(() => {
+        reject('Tidak terpenuhi')
+        }, 1000);
+    }
+});
+
+const film = new Promise((resolve, reject) => {
+    if (ditepati){
     setTimeout(() => {
     resolve([{
         judul:'Avengers',
-        sutradara:'tondi',
-        pemeran:'putra, nafis'
+        penulis:'tondi',
+        pemeran:['putra','nafis']
     }])}, 1000);
-}    
-else
-{
-    setTimeout(() => {
-        reject('Tidak terpenuhi')
+    }  
+    else{
+        setTimeout(() => {
+           reject ('tidak terpenuhi') 
         }, 1000);
-}
-});
-
-const cuaca = new Promise ((resolve,reject)=>{
-    if(ditepati)
-    {
-        setTimeout(() => {
-        resolve([{
-            kota:'Bandung',
-            temp:26,
-            kondisi:'cerah'
-        }])}, 500);
-    }    
-    else
-    {
-        setTimeout(() => {
-            reject('Tidak terpenuhi')
-            }, 1000);
     }
-    });
+
+});
 
 // film.then(response=>console.log(response));
 // cuaca.then(response=>console.log(response));
